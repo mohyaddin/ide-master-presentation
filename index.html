@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
     <link rel="stylesheet" href="dist/theme/black.css">
+<!--    <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css" />-->
+<!--  <kbd class="kbc-button">alt + up / down</kbd> -->
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -19,6 +21,12 @@
         }
         .reveal h3 {
             text-transform: none;
+        }
+        .Key {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
         }
     </style>
 </head>
@@ -72,6 +80,22 @@
             </section>
             <section>
                 <img src="img_3.png"  alt="" >
+            </section>
+        </section>
+        <section>
+            <section>
+                <h3>Move Caret to Matching Brace</h3>
+                <p>ctrl + shift + m</p>
+                <p>Navigate Menu -> Navigate in File -> Move Caret ...</p>
+            </section>
+            <section>
+                <h3></h3>
+                <img src="img_4.png" height="631" width="588"/>
+            </section>
+            <section>
+                <h3>Next/Previous Method</h3>
+                <p><kbd class="Key">alt + up / down</kbd></p>
+                <p>Navigate Menu -> Navigate in File -> Next/Previous ...</p>
             </section>
         </section>
     </div>
